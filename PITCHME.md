@@ -1,8 +1,13 @@
-# [Aurelia Overview][aurelia]
+# Aurelia Overview
+
+---
+
 ## What is Aurelia?
 - Just javascript (ES2015 & ESNext)
 - It's a collection of collaborating libraries
 - SPA framework
+
+---
 
 ## Why should I use Aurelia?
 - Future compatible 
