@@ -119,17 +119,20 @@ import {inject} from 'aurelia-framework';
 
 ### Route Configuration
 
-| route   | Relative path from base URL to activate the route   |
-| moduleId   |   Name of the module (View/ViewModel pair) to load into the router-view element when route is activate  |
+| Route property  |   |
+|---              |---|
+| route           | Relative path from base URL to activate the route   |
+| moduleId        |   Name of the module (View/ViewModel pair) to load into the router-view element when route is activate  |
 
 ---
 
 ### Route Configuration
 
+| Route property  |   |
 |---              |---|
-| title   |  Will be shown in the title bar or tab of browser |
-| nav   |  Boolean to indicate desire to include route in navigation collection on router for data binding purpose |
-| name   | Used to identify the route for route related APIs  |
+| title           |  Will be shown in the title bar or tab of browser |
+| nav             |  Boolean to indicate desire to include route in navigation collection on router for data binding purpose |
+| name            | Used to identify the route for route related APIs  |
 
 ### Routing Parameters
 - URL Parameters 
