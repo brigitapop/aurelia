@@ -97,14 +97,12 @@ import {inject} from 'aurelia-framework';
 ### Globally Registering Dependencies
 - Avoid repetitive import declarations 
 - Register a dependency globally through your app configure method 
-## Aurelia Routing Fundamentals
----
-### Agenda
-- Routing Overview 
-- Defining and Navigating with Routes 
-- Working with Route Parameter
 
 ---
+
+## Aurelia Routing Fundamentals
+---
+
 ### Traditional Web App Navigation
  ?? image
 
