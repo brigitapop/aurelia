@@ -15,6 +15,9 @@
 - All in one solution, but modular
   takes care of all your needs for building SPA, and you only have to pull in what you need and use
 - MIT license
+
+---
+## Why should I use Aurelia?
 - Conventions over configuration
   keeps the code clean & you don't have to struggle with the framework
 - Rendering performance
