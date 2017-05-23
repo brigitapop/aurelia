@@ -112,7 +112,7 @@ import {inject} from 'aurelia-framework';
 
 ---
 ### Routing in Aurelia
-- Define container for routing with '''<router-view>'''
+- Define container for routing with ```<router-view>```
 - Implement configureRouter() in ViewModel
 - Define modules for routes
 ---
