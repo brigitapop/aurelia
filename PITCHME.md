@@ -191,13 +191,12 @@ import {inject} from 'aurelia-framework';
 
 - Looping over arrays: repeat.for
 ``` 
-    <table>
-        <tr repeat.for="customer of customers"> 
-            <td>${customer.FirstName}</td>       
-            <td>${customer.LastName}</td> 
-            <td>${customer.Phone}</td> 
-       </tr> 
-   </table>
+  <nav>
+    <ul>
+      <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
+        <a href.bind="row.href">${row.title}</a>
+      </li>
+    </ul>
 ```
 
 ---
