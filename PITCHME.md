@@ -28,10 +28,10 @@
 
 ---
 
-## Starting your fisrt application
+## Application stratup
 
 - [Quick Start](quick-start)
--- 
+- [Aurelia CLI](aurelia-cli)
 
 
 ## Using Dependency Injection in Aurelia
@@ -181,3 +181,4 @@ Can indicate on class what instance lifetime it should have in container
 
 [aurelia]: <http://aurelia.io>
 [quick-start]: <http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/quick-start/1>
+[aurelia-cli]: <http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/the-aurelia-cli/1>
