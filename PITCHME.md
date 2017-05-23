@@ -140,6 +140,7 @@ import {inject} from 'aurelia-framework';
 - Query String Parameters
 
 ---
+
 ### Consuming Routes in ViewModels
 
 - Implement activate(params, routeConfig, navigationInstruction) method 
@@ -151,10 +152,9 @@ import {inject} from 'aurelia-framework';
 ---
 
 ## Data Binding Fundamentals
----
-### What Is Data Binding All About?
 
 ---
+
 ### Data Binding Benefits
 - Reduces code effort / maintenance Automatic data flow as data changes 
     - No per-property push/pull logic 
@@ -163,14 +163,18 @@ import {inject} from 'aurelia-framework';
     - Bindings are loosely coupled bond between View and ViewModel
 
 ---
+
 ### Aurelia Data Binding
 - Adaptive data binding 
 - Performance optimized 
 - Easy to use / simple syntax 
 - Flexible 
 - Extensible
+---
 
 ### Aurelia Adaptive Binding
+
+---
 
 ### Aurelia Binding –The >90% Case
 
@@ -194,24 +198,23 @@ import {inject} from 'aurelia-framework';
 </table>
 ```
 
+---
+
 ### Controlling Data Flow
 
 - .two -way
 - .one-time
 - .one -way
 
+---
 
 ### Calling ViewModel Method
 
 - event.delegate - Wires up event handler at document level 
 - event.trigger - Wires up event handler on element itself 
 
-## Data Binding Summary
+---
 
-- Aurelia Data Binding is simple, flexible, extensible, and adaptive 
-- .bind, string interpolation ${ }, and repeat.for cover 90+% of your data binding needs 
-- .one-way, .two-way, and .one-time binding commands put you in control when needed
-- Event bindings let you invoke methods on your ViewModels when things happen in the view
 
 [aurelia]: <http://aurelia.io>
 [quick-start]: <http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/quick-start/1>
