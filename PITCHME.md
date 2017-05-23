@@ -191,13 +191,13 @@ import {inject} from 'aurelia-framework';
 
 - Looping over arrays: repeat.for
 ``` 
-   <table>
-       <tr repeat.for="customer of customers"> 
-       <td>${customer.FirstName}</td>       
-       <td>${customer.LastName}</td> 
-       <td>${customer.Phone}</td> 
-   </tr> 
-  </table>
+    <table>
+        <tr repeat.for="customer of customers"> 
+            <td>${customer.FirstName}</td>       
+            <td>${customer.LastName}</td> 
+            <td>${customer.Phone}</td> 
+       </tr> 
+   </table>
 ```
 
 ---
