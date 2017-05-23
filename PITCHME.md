@@ -80,3 +80,66 @@ Can indicate on class what instance lifetime it should have in container
 - Programmatically navigate to another route 
     - router.navigate(relativePath) 
     - router.navigateToRoute(routeName, {params}, options)
+    
+    ## Data Binding Fundamentals
+---
+### What Is Data Binding All About?
+
+---
+### Data Binding Benefits
+- Reduces code effort / maintenance Automatic data flow as data changes 
+    - No per-property push/pull logic 
+    - Natural associations 
+- Key enabler for MVVM 
+    - Bindings are loosely coupled bond between View and ViewModel
+
+---
+### Aurelia Data Binding
+- Adaptive data binding 
+- Performance optimized 
+- Easy to use / simple syntax 
+- Flexible 
+- Extensible
+
+### Aurelia Adaptive Binding
+
+### Aurelia Binding –The >90% Case
+
+- HTML element property value from ViewModel or Model property value: .bind
+```
+     <element property.bind='viewModelProperty' ...></element>
+```
+
+- Element content or value insertion in expression: string interpolation
+```
+    <span>${product.description}</span> <img src="/images/uploads/${filename}"/>
+```
+- Looping over arrays: repeat.for
+```
+<table>
+ <tr repeat.for="customer of customers"> 
+     <td>${customer.FirstName}</td>       
+     <td>${customer.LastName}</td> 
+     <td>${customer.Phone}</td> 
+ </tr> 
+</table>
+```
+
+### Controlling Data Flow
+
+- .two -way
+- .one-time
+- .one -way
+
+
+### Calling ViewModel Method
+
+- event.delegate - Wires up event handler at document level 
+- event.trigger - Wires up event handler on element itself 
+
+## Data Binding Summary
+
+- Aurelia Data Binding is simple, flexible, extensible, and adaptive 
+- .bind, string interpolation ${ }, and repeat.for cover 90+% of your data binding needs 
+- .one-way, .two-way, and .one-time binding commands put you in control when needed
+- Event bindings let you invoke methods on your ViewModels when things happen in the view
