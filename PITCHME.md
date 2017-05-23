@@ -64,6 +64,7 @@ import {inject} from 'aurelia-framework';
 ```
 ---
 
+
 ### Dependency Injection in Aurelia
 - Alternate (non-ES2016): use static inject property instead of decorator
 
