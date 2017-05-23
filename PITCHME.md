@@ -104,11 +104,11 @@ import {inject} from 'aurelia-framework';
 ---
 
 ### Traditional Web App Navigation
-![Flowers](https://github.com/brigitapop/aurelia/blob/master/traditional.png?raw=true)
+![traditional](https://github.com/brigitapop/aurelia/blob/master/traditional.png?raw=true)
 
 ---
 ### SPA Navigation
-?? image
+![spa](https://github.com/brigitapop/aurelia/blob/master/spa.png?raw=true)
 
 ---
 ### Routing in Aurelia
