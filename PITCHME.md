@@ -51,6 +51,7 @@ Dependency Injection is mostly about having loose coupling between dependent com
 ```
 import {SomeService} from 'someService';
 import {inject} from 'aurelia-framework';
+
     @inject(SomeService)
     export class App {
         constructor(someService) {
@@ -73,6 +74,7 @@ import {inject} from 'aurelia-framework';
 ```
 import {SomeService} from 'someService';
 import {inject} from 'aurelia-framework';
+
     export class App {
         static inject = [SomeService];
         constructor(someService) {
