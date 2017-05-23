@@ -104,7 +104,7 @@ import {inject} from 'aurelia-framework';
 ---
 
 ### Traditional Web App Navigation
- ?? image
+![Flowers](/flowers.jpeg)
 
 ---
 ### SPA Navigation
