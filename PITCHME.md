@@ -28,11 +28,13 @@
 
 ---
 
-## Application stratup
+## How to setup Aurelia?
 
 - [Quick Start](quick-start)
 - [Aurelia CLI](aurelia-cli)
+- Webpack, Yeoman , JSPM / System.js
 
+---
 
 ## Using Dependency Injection in Aurelia
 
