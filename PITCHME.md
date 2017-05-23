@@ -27,6 +27,13 @@
 - Enterprise support
 
 ---
+
+## Starting your fisrt application
+
+-- [Quick Start](quick-start)
+-- 
+
+
 ## Using Dependency Injection in Aurelia
 
 ### Agenda
@@ -173,3 +180,4 @@ Can indicate on class what instance lifetime it should have in container
 - Event bindings let you invoke methods on your ViewModels when things happen in the view
 
 [aurelia]: <http://aurelia.io>
+[quick-start]: <http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/quick-start/1>
