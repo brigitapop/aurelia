@@ -134,10 +134,12 @@ import {inject} from 'aurelia-framework';
 | nav             |  Boolean to indicate desire to include route in navigation collection on router for data binding purpose |
 | name            | Used to identify the route for route related APIs  |
 
+---
 ### Routing Parameters
 - URL Parameters 
 - Query String Parameters
 
+---
 ### Consuming Routes in ViewModels
 
 - Implement activate(params, routeConfig, navigationInstruction) method 
@@ -146,7 +148,9 @@ import {inject} from 'aurelia-framework';
     - router.navigate(relativePath) 
     - router.navigateToRoute(routeName, {params}, options)
     
-    ## Data Binding Fundamentals
+---
+
+## Data Binding Fundamentals
 ---
 ### What Is Data Binding All About?
 
