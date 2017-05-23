@@ -187,7 +187,6 @@ import {inject} from 'aurelia-framework';
 
 ---
 
-
 ### Aurelia Binding –The >90% Case
 
 - Looping over arrays: repeat.for
