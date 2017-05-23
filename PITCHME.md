@@ -216,6 +216,20 @@ import {inject} from 'aurelia-framework';
 
 ---
 
+### Working with Services
+
+---
+
+### Calling HTTP Services
+
+- AKA “AJAX” service calls
+- Vital part of any SPA
+- Not constrained to use only what Aurelia provides
+- Two choices in Aurelia:
+    - http-client
+    - fetch-client
+    
+    
 
 [aurelia]: <http://aurelia.io>
 [quick-start]: <http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/quick-start/1>
