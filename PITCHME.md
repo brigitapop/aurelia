@@ -1,3 +1,24 @@
+# [Aurelia]
+## What is Aurelia?
+- just javascript (ES2015 & ESNext)
+- it's a collection of collaborating libraries
+- SPA framework
+
+## Why should I use Aurelia?
+- future compatible 
+  by relying on standards as much as possible like modern javascript, modern dom and web components technology
+- all in one solution, but modular
+  takes care of all your needs for building SPA, and you only have to pull in what you need and use
+- MIT license
+- conventions over configuration
+  keeps the code clean & you don't have to struggle with the framework
+- rendering performance
+- relative small learning curve
+- integrates well with other libraries/frameworks
+- active community
+- enterprise support
+
+---
 ## Using Dependency Injection in Aurelia
 
 ### Agenda
@@ -38,108 +59,4 @@ Can indicate on class what instance lifetime it should have in container
 - Avoid repetitive import declarations 
 - Register a dependency globally through your app configure method 
 
-## Aurelia Routing Fundamentals
----
-### Agenda
-- Routing Overview 
-- Defining and Navigating with Routes 
-- Working with Route Parameter
-
----
-### Traditional Web App Navigation
- ?? image
-
----
-### SPA Navigation
-?? image
-
----
-### Routing in Aurelia
-- Define container for routing with <router-view>
-- Implement configureRouter() in ViewModel
-- Define modules for routes
----
-
-### Route Configuration
-| Route propert  |   |
-|---|---|
-| route   | Relative path from base URL to activate the route   |
-| moduleId   |   Name of the module (View/ViewModel pair) to load into the                          router-view element when route is activate  |
-| title   |  Will be shown in the title bar or tab of browser |
-| nav   |  Boolean to indicate desire to include route in navigation collection on router for data binding purpose |
-| name   | Used to identify the route for route related APIs  |
-
-### Routing Parameters
-- URL Parameters 
-- Query String Parameters
-
-### Consuming Routes in ViewModels
-
-- Implement activate(params, routeConfig, navigationInstruction) method 
-- Generate URLs with router.generate(routeName, {params}) 
-- Programmatically navigate to another route 
-    - router.navigate(relativePath) 
-    - router.navigateToRoute(routeName, {params}, options)
-    
-    ## Data Binding Fundamentals
----
-### What Is Data Binding All About?
-
----
-### Data Binding Benefits
-- Reduces code effort / maintenance Automatic data flow as data changes 
-    - No per-property push/pull logic 
-    - Natural associations 
-- Key enabler for MVVM 
-    - Bindings are loosely coupled bond between View and ViewModel
-
----
-### Aurelia Data Binding
-- Adaptive data binding 
-- Performance optimized 
-- Easy to use / simple syntax 
-- Flexible 
-- Extensible
-
-### Aurelia Adaptive Binding
-
-### Aurelia Binding –The >90% Case
-
-- HTML element property value from ViewModel or Model property value: .bind
-```
-     <element property.bind='viewModelProperty' ...></element>
-```
-
-- Element content or value insertion in expression: string interpolation
-```
-    <span>${product.description}</span> <img src="/images/uploads/${filename}"/>
-```
-- Looping over arrays: repeat.for
-```
-<table>
- <tr repeat.for="customer of customers"> 
-     <td>${customer.FirstName}</td>       
-     <td>${customer.LastName}</td> 
-     <td>${customer.Phone}</td> 
- </tr> 
-</table>
-```
-
-### Controlling Data Flow
-
-- .two -way
-- .one-time
-- .one -way
-
-
-### Calling ViewModel Method
-
-- event.delegate - Wires up event handler at document level 
-- event.trigger - Wires up event handler on element itself 
-
-## Data Binding Summary
-
-- Aurelia Data Binding is simple, flexible, extensible, and adaptive 
-- .bind, string interpolation ${ }, and repeat.for cover 90+% of your data binding needs 
-- .one-way, .two-way, and .one-time binding commands put you in control when needed
-- Event bindings let you invoke methods on your ViewModels when things happen in the view
+[Aurelia]: <http://aurelia.io>
