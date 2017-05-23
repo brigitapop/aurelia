@@ -104,7 +104,7 @@ import {inject} from 'aurelia-framework';
 ---
 
 ### Traditional Web App Navigation
-![Flowers](/flowers.jpeg)
+![Flowers](https://github.com/brigitapop/aurelia/blob/master/traditional.png)
 
 ---
 ### SPA Navigation
