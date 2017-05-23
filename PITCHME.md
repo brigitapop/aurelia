@@ -230,7 +230,10 @@ import {inject} from 'aurelia-framework';
     - http-client
     - fetch-client
     
-    
+### Resources
+
+- http://aurelia.io/training.html
+
 
 [aurelia]: <http://aurelia.io>
 [quick-start]: <http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/quick-start/1>
