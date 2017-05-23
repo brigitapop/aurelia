@@ -1,4 +1,4 @@
-# Using Dependency Injection in Aurelia
+## Using Dependency Injection in Aurelia
 
 ---
 ### Agenda
