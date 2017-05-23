@@ -38,31 +38,50 @@
 
 ## Using Dependency Injection in Aurelia
 
-### Agenda
-- Dependency Injection Overview 
-- Using Dependency Injection in Aurelia 
-- Lifetime Management 
-- Globally Registering Dependencies
-
 ---
+
 Dependency Injection is mostly about having loose coupling between dependent components
-
----
-### Related Patterns
-- Dependency Injection (DI)
-- Inversion of Control (IoC)
-- Service Locator
 
 ---
 ### Dependency Injection in Aurelia
 - Done using the @inject(type[,type2,…]) decorator on the class 
 - Instance(s) of type(s) is passed to the constructor of the class
- ??code sample
 ---
+
+```
+import {SomeService} from 'someService';
+import {inject} from 'aurelia-framework';
+    @inject(SomeService)
+    export class App {
+        constructor(someService) {
+            this.taskName = '';
+            this.someService = someService;
+            }
+            startTask() {
+            var taskNo = this.someService.startTask(this.taskName);
+            }
+         }
+```
 
 ### Dependency Injection in Aurelia
 - Alternate (non-ES2016): use static inject property instead of decorator
- ?? code sample
+
+---
+
+```
+import {SomeService} from 'someService';
+import {inject} from 'aurelia-framework';
+    export class App {
+        static inject = [SomeService];
+        constructor(someService) {
+            this.taskName = '';
+            this.someService = someService;
+            }
+            startTask() {
+            var taskNo =this.someService.startTask(this.taskName);
+            }
+        }
+```
 
 ---
 ### Registering Lifetime
