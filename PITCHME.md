@@ -30,7 +30,7 @@
 
 ## Starting your fisrt application
 
--- Quick Start(quick-start)
+-- [Quick Start](quick-start)
 -- 
 
 
