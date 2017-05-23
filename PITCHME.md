@@ -190,14 +190,13 @@ import {inject} from 'aurelia-framework';
 ### Aurelia Binding –The >90% Case
 
 - Looping over arrays: repeat.for
-```
-<table>
- <tr repeat.for="customer of customers"> 
-     <td>${customer.FirstName}</td>       
-     <td>${customer.LastName}</td> 
-     <td>${customer.Phone}</td> 
- </tr> 
-</table>
+``` <table>
+       <tr repeat.for="customer of customers"> 
+       <td>${customer.FirstName}</td>       
+       <td>${customer.LastName}</td> 
+       <td>${customer.Phone}</td> 
+   </tr> 
+  </table>
 ```
 
 ---
