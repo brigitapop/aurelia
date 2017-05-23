@@ -1,4 +1,4 @@
-# [Aurelia Overview]
+# [Aurelia]
 ## What is Aurelia?
 - just javascript (ES2015 & ESNext)
 - it's a collection of collaborating libraries
