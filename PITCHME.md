@@ -122,7 +122,7 @@ import {inject} from 'aurelia-framework';
 | Route property  |   |
 |---              |---|
 | route           | Relative path from base URL to activate the route   |
-| moduleId        |   Name of the module (View/ViewModel pair) to load into the router-view element when route is activate  |
+| moduleId        | Name of the module (View/ViewModel pair) to load into the router-view element when route is activate  |
 
 ---
 
@@ -130,8 +130,8 @@ import {inject} from 'aurelia-framework';
 
 | Route property  |   |
 |---              |---|
-| title           |  Will be shown in the title bar or tab of browser |
-| nav             |  Boolean to indicate desire to include route in navigation collection on router for data binding purpose |
+| title           | Will be shown in the title bar or tab of browser |
+| nav             | Boolean to indicate desire to include route in navigation collection on router for data binding purpose |
 | name            | Used to identify the route for route related APIs  |
 
 ---
@@ -170,9 +170,6 @@ import {inject} from 'aurelia-framework';
 - Easy to use / simple syntax 
 - Flexible 
 - Extensible
----
-
-### Aurelia Adaptive Binding
 
 ---
 
@@ -187,6 +184,12 @@ import {inject} from 'aurelia-framework';
 ```
     <span>${product.description}</span> <img src="/images/uploads/${filename}"/>
 ```
+
+---
+
+
+### Aurelia Binding –The >90% Case
+
 - Looping over arrays: repeat.for
 ```
 <table>
