@@ -90,7 +90,6 @@ import {inject} from 'aurelia-framework';
 ---
 ### Registering Lifetime
 
-Can indicate on class what instance lifetime it should have in container 
 - Singleton –constructed on first inject, same ref passed to other injections
 - Transient –new instance constructed on each injectio
 
