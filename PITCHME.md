@@ -67,7 +67,6 @@ Model-View-ViewModel (MVVM) is mostly about trying to achieve good Separation of
 ---
 
 ### Separation of Concerns
-
 View:
 ```
 <template>
@@ -85,7 +84,7 @@ View:
 
 ----
 
-
+### Separation of Concerns
 ViewModel
 
 ```
