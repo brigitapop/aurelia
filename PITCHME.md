@@ -44,6 +44,7 @@
 Model-View-ViewModel (MVVM) is mostly about trying to achieve good Separation of Concerns
 
 ---
+
 ###No Separation of Concerns
 
 ```
@@ -82,7 +83,7 @@ View:
 
 ```
 
-----
+---
 
 ### Separation of Concerns
 ViewModel
@@ -111,6 +112,7 @@ import {inject} from 'aurelia-framework';
 - Using Aurelia Routing & Navigation System
 - Using Custom Elements 
 
+---
 
 ## Using Dependency Injection in Aurelia
 
