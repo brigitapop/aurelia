@@ -120,10 +120,10 @@ import {inject} from 'aurelia-framework';
 
 ### Route Configuration
 
-| Route property  |   |
-|---              |---|
-| route           | Relative path from base URL to activate the route   |
-| moduleId        | Name of the module (View/ViewModel pair) to load into the router-view element when route is activate  |
+| Route property   |   |
+|---               |---|
+| route            | Relative path from base URL to activate the route   |
+| moduleId         | Name of the module (View/ViewModel pair) to load into the router-view element when route is activate  |
 
 ---
 
