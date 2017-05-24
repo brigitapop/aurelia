@@ -30,9 +30,9 @@
 
 ## How to setup Aurelia?
 
-- [Quick Start](quick-start)
-- [Aurelia CLI](aurelia-cli)
-- [From scratch with NPM and JSPM]([aurelia-jspm])
+- [Quick Start][quick-start]
+- [Aurelia CLI][aurelia-cli]
+- [From scratch with NPM and JSPM][aurelia-jspm]
 - Webpack, Yeoman, etc
 
 ---
