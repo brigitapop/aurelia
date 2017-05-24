@@ -114,14 +114,14 @@ import {inject} from 'aurelia-framework';
 
 ---
 
-## Using Dependency Injection in Aurelia
+## Dependency Injection in Aurelia
 
 ---
 
 Dependency Injection is mostly about having loose coupling between dependent components
 
 ---
-### Dependency Injection in Aurelia
+### Using decorator
 - Done using the @inject(type[,type2,…]) decorator on the class 
 - Instance(s) of type(s) is passed to the constructor of the class
 ---
@@ -144,7 +144,7 @@ import {inject} from 'aurelia-framework';
 ---
 
 
-### Dependency Injection in Aurelia
+### Using static property
 - Alternate (non-ES2016): use static inject property instead of decorator
 
 ---
