@@ -306,8 +306,27 @@ import {inject} from 'aurelia-framework';
 - Two choices in Aurelia:
     - http-client
     - fetch-client
- 
+    
+---
+
+# Extending Aurelia with Custom Elements and Attributes
+
+---
+### Custom Elements
+![spa](https://github.com/brigitapop/aurelia/blob/master/reuse.png?raw=true)
+
+---
+
+### Custom Elements 
+- Any View/ViewModel in Aurelia 
+- Use decorator to explicitly declare and name 
+- Use ```<require>``` element to pull into a containing view 
+- Expose data bindableproperties 
+- Handle lifecycle events 
+- Allow user of element to supply partial content
+
 --- 
+
 ### Resources
 
 - http://aurelia.io/training.html
