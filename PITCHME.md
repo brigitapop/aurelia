@@ -233,15 +233,6 @@ import {inject} from 'aurelia-framework';
 
 ---
 
-### Data Binding Benefits
-- Reduces code effort / maintenance Automatic data flow as data changes 
-    - No per-property push/pull logic 
-    - Natural associations 
-- Key enabler for MVVM 
-    - Bindings are loosely coupled bond between View and ViewModel
-
----
-
 ### Aurelia Data Binding
 - Adaptive data binding 
 - Performance optimized 
