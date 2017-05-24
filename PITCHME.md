@@ -37,6 +37,79 @@
 
 ---
 
+# Implementing MVVM with Aurelia
+
+---
+
+Model-View-ViewModel (MVVM) is mostly about trying to achieve good Separation of Concerns
+
+---
+###No Separation of Concerns
+
+```
+ <div>
+   <ul id="workinprogress"></ul> 
+  </div> 
+  <div> 
+     <input id='taskName' type='text'/>           
+     <button id='startwork' onclick="$('wp').class('wk')"> WK</button> 
+   </div>
+  <script type="text/javascript"> 
+      $(function(){         
+         $('#startwork').click(function(){ var taskNo = 
+                           someService.startTask($("#taskName").val());                               
+         $('#workinprogress').append('<li><span>Task ' + taskNo + '</span></li>');
+         }); 
+      }); 
+  </script> 
+```
+
+---
+
+### Separation of Concerns
+View:
+```
+<template>
+  <div> 
+    <ul class.bind='listStyle'> 
+      <li repeat.for='task of tasks'>${task}</li> 
+    </ul> 
+ </div> 
+ <div> 
+    <input type="text" value.bind='taskName'/> 
+    <button type='button' click.delegate='startTask()'>Start Task</button> 
+ </div> </template>
+
+```
+
+----
+
+ViewModel
+```
+import {inject} from 'aurelia-framework';
+ @inject(SomeService) 
+ export class App { 
+   constructor(someService) { 
+   this.tasks = []; 
+   this.taskName = ''; 
+   this.someService = someService; 
+   this.listStyle = ''; 
+   }  startTask() {
+        var taskNo = this.someService.startTask(this.taskName);
+        this.tasks.push(`Task ${taskNo}`); 
+        this.listStyle = 'working'; 
+        } 
+```
+
+---
+
+### MVVM Approaches in Aurelia
+
+- Using compose element
+- Using Aurelia Routing & Navigation System
+- Using Custom Elements 
+
+
 ## Using Dependency Injection in Aurelia
 
 ---
