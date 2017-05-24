@@ -321,7 +321,7 @@ import {inject} from 'aurelia-framework';
 - Any View/ViewModel in Aurelia 
 - Use decorator to explicitly declare and name 
 - Use ```<require>``` element to pull into a containing view 
-- Expose data bindableproperties 
+- Expose data bindable properties 
 - Handle lifecycle events 
 - Allow user of element to supply partial content
 
