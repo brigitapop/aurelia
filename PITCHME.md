@@ -33,7 +33,7 @@
 - [Quick Start](quick-start)
 - [Aurelia CLI](aurelia-cli)
 - [From scratch with NPM and JSPM]([aurelia-jspm])
-- Webpack, Yeoman 
+- Webpack, Yeoman..
 
 ---
 
