@@ -30,9 +30,9 @@
 
 ## How to setup Aurelia?
 
-- [Quick Start][quick-start]
-- [Aurelia CLI][aurelia-cli]
-- [From scratch with NPM and JSPM][aurelia-jspm]
+- [Quick Start](http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/quick-start/1)
+- [Aurelia CLI](http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/the-aurelia-cli/1)
+- [From scratch with NPM and JSPM](http://briannoyesblog.azurewebsites.net/2016/05/27/hello-aurelia/)
 - Webpack, Yeoman, etc
 
 ---
@@ -332,9 +332,3 @@ import {inject} from 'aurelia-framework';
 - http://aurelia.io/training.html
 
 ---
-
-
-[aurelia]: <http://aurelia.io>
-[quick-start]: <http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/quick-start/1>
-[aurelia-cli]: <http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/the-aurelia-cli/1>
-[aurelia-jspm]:<http://briannoyesblog.azurewebsites.net/2016/05/27/hello-aurelia/>
