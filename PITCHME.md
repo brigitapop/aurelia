@@ -306,10 +306,13 @@ import {inject} from 'aurelia-framework';
 - Two choices in Aurelia:
     - http-client
     - fetch-client
-    
+ 
+--- 
 ### Resources
 
 - http://aurelia.io/training.html
+
+---
 
 
 [aurelia]: <http://aurelia.io>
