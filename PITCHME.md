@@ -129,7 +129,8 @@ import {inject} from 'aurelia-framework';
 
 ### Route Configuration
 
-
+| Route property  |   |
+|---              |---|
 | title           | Will be shown in the title bar or tab of browser |
 | nav             | Boolean to indicate desire to include route in navigation collection on router for data binding purpose |
 | name            | Used to identify the route for route related APIs  |
