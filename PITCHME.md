@@ -67,6 +67,7 @@ Model-View-ViewModel (MVVM) is mostly about trying to achieve good Separation of
 ---
 
 ### Separation of Concerns
+
 View:
 ```
 <template>
@@ -84,7 +85,9 @@ View:
 
 ----
 
+
 ViewModel
+
 ```
 import {inject} from 'aurelia-framework';
  @inject(SomeService) 
